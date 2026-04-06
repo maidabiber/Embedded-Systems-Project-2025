@@ -11,7 +11,6 @@ import utime
 sistem_aktiviran = True
 ventilator = Pin(19, Pin.OUT)
 ventilator.value(1)
-
 previous_state = 0
 # Uspostavljanje WiFI konekcije
 nic = network.WLAN(network.STA_IF)
